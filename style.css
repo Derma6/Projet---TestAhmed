@@ -99,13 +99,6 @@ footer {
 }
 
 /*-----RESPONSIVE-----*/
-/* @media all and (max-width:680px) {
-    .mainContainer {
-        width: 100%;
-    }
- 
-    
-} */
 @media all and (max-width:750px) {
     section {
         padding: 50px 20px;
