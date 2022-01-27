@@ -40,7 +40,6 @@ header a:active {
 
 /*-----MAIN-----*/
 section {
-    height: 350px;
     margin: 0 auto;
     padding: 50px 50px;
     display: flex;
@@ -48,9 +47,11 @@ section {
 }
 
 /*-----MAIN SECTION 1-----*/
+section:nth-child(1) { 
+    height: 300px;
+}
 .mainContainer {
     width: 80%;
-    /* height: 100%; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
