@@ -16,13 +16,12 @@ body {
 /*-----HEADER-----*/
 header {
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: var(--headerBackgroundColor);
     color: var(--headerTextColor);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 #downloadButton {
@@ -55,7 +54,6 @@ section:nth-child(1) {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 h2{
